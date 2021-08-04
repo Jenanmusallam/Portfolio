@@ -1,0 +1,156 @@
+body {
+  background: url('../img/bg2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.space {
+  height: 5vh;
+}
+.top-colors {
+  padding: 0 !important;
+}
+.top-color {
+  height: 8px;
+  width: 20%;
+  float: left;
+  background: #249991;
+}
+.top-color1,
+.bg-info {
+  background: #518492 !important;
+}
+.top-color2,
+.bg-success {
+  background: #cfc1c0 !important;
+}
+.top-color3,
+.bg-warning {
+  background: #d9959b !important;
+}
+.text-blue {
+  color: #518492;
+}
+.text-pink {
+  color: #d9959b;
+}
+.lead {
+  font-weight: 400;
+}
+.section-head {
+  position: relative;
+  padding: 0 0 0 15px;
+  line-height: 1;
+  border-left: 1px solid #518492;
+  letter-spacing: 2px;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.progress {
+  height: 2vh;
+  width: 100%;
+  background: #e1e4e8;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.progress .progress-bar {
+  display: block;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    #62a0b1,
+    #cfc1c0 17%,
+    #da949c 34%,
+    #c58b8a 51%,
+    #62a0b1 68%,
+    #cfc1c0 85%,
+    #da949c
+  );
+  background-size: 300% 100%;
+  -webkit-animation: progress-animation 2s linear infinite;
+  animation: progress-animation 2s linear infinite;
+}
+.project-img {
+  height: 25vh;
+}
+@-webkit-keyframes progress-animation {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+
+@keyframes progress-animation {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+.top-color4,
+.bg-danger,
+.btn-danger {
+  background: #ad6968 !important;
+}
+
+#main-header img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #518492;
+  border-radius: 0 30%;
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+#main-header .contact i {
+  font-size: 1.5em;
+}
+#main-header .contact i:hover {
+  color: rgb(63, 207, 207);
+}
+#main-header .display-4 {
+  text-shadow: 2px 0px 0px rgb(42 141 141);
+}
+#main-header .bg-black {
+  background-color: black;
+  color: #fff;
+  font-size: 1rem;
+}
+
+#home .fa-phone {
+  transform: rotate(90deg);
+}
+#home i {
+  color: #da949c;
+  font-size: 1.5em;
+}
+#home .line-left {
+  border-left: groove;
+}
+#contact {
+  background: #ad6968;
+  background: url('https://cdn.searchenginejournal.com/wp-content/uploads/2018/06/best-contact-us-pages-760x400.png');
+}
+#contact .bg-contact {
+  border: none;
+  background-color: #51849200 !important;
+  color: #ad6968;
+}
+.btn:not(:disabled):not(.disabled) {
+  border-color: white;
+}
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important;
+  }
+}
